@@ -32,6 +32,6 @@ plot(powerdata$datetime, powerdata$Global_active_power, type ="l",
 mtext(side=2, line=3, "Global Active Power (kilowatts)")
 ##Adding y-axis label
 
-dev.copy(png, file = "rplot2.png", width = 480, height = 480, units = "px")
+dev.copy(png, file = "plot2.png", width = 480, height = 480, units = "px")
 dev.off()
 ##saving the plot as a *.png file
