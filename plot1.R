@@ -28,5 +28,5 @@ powerdata$datetime <- as.POSIXct(paste(powerdata$Date,powerdata$Time))
 #####Plotting the histogram - Plot 1
 hist(powerdata$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)",
      main="Global Active Power") 
-dev.copy(png, file = "rplot1.png", width = 480, height = 480, units = "px")
+dev.copy(png, file = "plot1.png", width = 480, height = 480, units = "px")
 dev.off()
