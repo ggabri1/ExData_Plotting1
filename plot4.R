@@ -57,5 +57,5 @@ with(powerdata, {
 })
 
 
-dev.copy(png, file = "rplot4.png", width = 480, height = 480, units = "px")
+dev.copy(png, file = "plot4.png", width = 480, height = 480, units = "px")
 dev.off()
